@@ -9,7 +9,7 @@ $('#currentDay').text(todaysDate);
 
         $(".time-group").each(function () {
        
-        var groupTime = parseInt($(this).attr("id").split("-")[1]);
+        var groupTime = parseInt($(this).attr("id").split("hour")[1]);
         // Changes the colors for past, present, and future times  
         if (groupTime === currentTime) {
           $(this).removeClass("past");
