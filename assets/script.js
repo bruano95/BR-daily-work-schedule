@@ -9,7 +9,7 @@ $('#currentDay').text(todaysDate);
 
         $(".time-group").each(function () {
        
-        var groupTime = parseInt($(this).attr("class").split("hour")[1]);
+        var groupTime = parseInt($(this).attr("id").split("hour")[1]);
         // Changes the colors for past, present, and future times  
         if (groupTime === currentTime) {
           $(this).removeClass("past");
@@ -33,7 +33,7 @@ $(document).ready(function() {
   $('.saveBtn').on('click', function(event) {
   event.preventDefault();
    var text = $(this).siblings(".description").val();
-   var time = $(this).parent().attr("class");
+   var time = $(this).parent().attr("id");
    
  // saves the inputted items into the local storage with time
    localStorage.setItem(time,text);
