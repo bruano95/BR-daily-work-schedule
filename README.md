@@ -22,8 +22,9 @@ If the items listed above are available, there are no additional installations n
 
 If the project/ web page is not running properly, please contact me through the ways listed below.
 
-# Authors
+# Contributions
 
 Brandon Ruano
 bruano@uw.edu
 github.com/bruano95
+discussions through small group study team
