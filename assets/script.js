@@ -33,7 +33,7 @@ $(document).ready(function() {
   $('.saveBtn').on('click', function(event) {
   event.preventDefault();
    var text = $(this).siblings(".description").val();
-   var time = $(this).parent().attr("id");
+   var time = $(this).parent().attr("class");
    
  // saves the inputted items into the local storage with time
    localStorage.setItem(time,text);
